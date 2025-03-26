@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>CSS Notes </h1>
+
+    <h2>What is CSS?</h2>
+    <p><strong>CSS (Cascading Style Sheets)</strong> is a styling language used to describe the presentation of a document written in HTML or XML. It is not a programming language, but a styling language that makes the content look better.</p>
+    
+    <h2>Basic Syntax</h2>
+    <div class="code">
+        <strong>Selector</strong>: Defines which HTML element the style applies to.<br>
+        <strong>Property</strong>: Defines the CSS property (like color, font-size).<br>
+        <strong>Value</strong>: Sets the value for the property.<br>
+        <br>
+        Example:<br>
+        <code>h1 { color: red; }</code>
+    </div>
+    
+    <h3>Including Style</h3>
+    <p>There are three main ways to include CSS in your document:</p>
+    <!-- <ul>
+      <li>  Inline CSS: Using the style attribute directly in the HTML elements.</li>
+       <li>Internal CSS: Using the <style> tag inside the <head> section. </li> 
+       <li> External CSS (Best Way): Writing CSS in a separate file and linking it with the HTML file.</li> 
+    </ul>
+     -->
+    <h3>Inline CSS Example:</h3>
+    <div class="example">
+        <code>&lt;h1 style="color: red;"&gt;Apna College&lt;/h1&gt;</code>
+    </div>
+    
+    <h3>External CSS Example:</h3>
+    <div class="example">
+        <code>
+        &lt;!-- HTML File --&gt;<br>
+        &lt;head&gt;<br>
+        &nbsp;&nbsp;&lt;link rel="stylesheet" href="styles.css"&gt;<br>
+        &lt;/head&gt;
+        </code>
+    </div>
+    
+    <h2>Color Properties</h2>
+    <h3>Foreground Color</h3>
+    <p>Use the <code>color</code> property to set the color of the text:</p>
+    <div class="code">
+        color: red;<br>
+        color: pink;<br>
+        color: blue;<br>
+        color: green;
+    </div>
+    
+    <h3>Background Color</h3>
+    <p>Use the <code>background-color</code> property to set the background color:</p>
+    <div class="code">
+        background-color: red;<br>
+        background-color: pink;<br>
+        background-color: blue;<br>
+        background-color: green;
+    </div>
+    
+    <h3>Color Systems</h3>
+    <p>You can use different color systems in CSS:</p>
+    <ul>
+        <li><strong>RGB:</strong> <code>color: rgb(255, 0, 0);</code></li>
+        <li><strong>Hexadecimal:</strong> <code>color: #ff0000;</code></li>
+    </ul>
+    
+    <h2>Selectors</h2>
+    <p>Selectors are used to target HTML elements in CSS. Common types:</p>
+    <ul>
+        <li><strong>Universal Selector</strong>: <code>* { }</code></li>
+        <li><strong>Element Selector</strong>: <code>h1 { }</code></li>
+        <li><strong>Id Selector</strong>: <code>#myId { }</code></li>
+        <li><strong>Class Selector</strong>: <code>.myClass { }</code></li>
+    </ul>
+
+    <footer>
+        <hr>
+        <p>&copy; 2021, All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
