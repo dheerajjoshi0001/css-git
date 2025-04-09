@@ -1,0 +1,61 @@
+/* Green box with border-radius */
+.green-box {
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    border-radius: 50%;
+  }
+  
+  /* Navbar styles */
+  .navbar {
+    height: 60px;
+    background-color: #0f1111; /* black */
+    display: flex;
+    align-items: center;
+    gap: 200px;
+    padding: 0 20px;
+  }
+  
+  .navbar a {
+    color: #f08804; /* yellow */
+    font-size: 25px;
+    text-decoration: none;
+  }
+  
+  /* Box model sample styles */
+  
+  .box-model-sample {
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    margin: 10px;
+    border: 2px solid black;
+  }
+  
+  /* Display properties */
+  .inline-example {
+    display: inline;
+  }
+  
+  .block-example {
+    display: block;
+  }
+  
+  .inline-block-example {
+    display: inline-block;
+  }
+  
+  .none-example {
+    display: none;
+  }
+  
+  /* Visibility */
+  .hidden-example {
+    visibility: hidden;
+  }
+  
+  /* Opacity & RGBA */
+  .rgba-example {
+    color: rgba(255, 0, 0, 0.5);
+  }
+  
