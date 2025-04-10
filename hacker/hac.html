@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Flexbox & Media Queries - Apna College Notes</title>
+  <link rel="stylesheet" href="hac.css">
+</head>
+<body>
+  <header>
+    <h1>Flexbox & Media Queries</h1>
+    <p>dheeraj joshi Notes</p>
+  </header>
+
+  <main>
+    <section class="flexbox">
+      <h2>Flexbox (Flexible Box Layout)</h2>
+      <p>A one-dimensional layout method for arranging items in rows or columns.</p>
+
+      <h3>The Flex Model</h3>
+      <ul>
+        <li>Set <code>display: flex;</code> on the container.</li>
+        <li>Items become <strong>flex items</strong>.</li>
+        <li>Two axes: <strong>main axis</strong> and <strong>cross axis</strong>.</li>
+      </ul>
+
+      <h3>Flex Direction</h3>
+      <ul>
+        <li><code>flex-direction: row;</code> (default)</li>
+        <li><code>flex-direction: row-reverse;</code></li>
+        <li><code>flex-direction: column;</code></li>
+        <li><code>flex-direction: column-reverse;</code></li>
+      </ul>
+
+      <h3>Flex Container Properties</h3>
+      <ul>
+        <li><code>justify-content</code> – main axis alignment (e.g., <code>flex-start</code>, <code>center</code>, <code>space-evenly</code>)</li>
+        <li><code>align-items</code> – cross axis alignment</li>
+        <li><code>align-content</code> – multiple lines spacing</li>
+        <li><code>flex-wrap</code> – <code>nowrap</code>, <code>wrap</code>, <code>wrap-reverse</code></li>
+      </ul>
+
+      <h3>Flex Item Properties</h3>
+      <ul>
+        <li><code>align-self</code> – individual alignment (overrides <code>align-items</code>)</li>
+        <li><code>flex-grow</code> – growth ratio (0 = no growth)</li>
+        <li><code>flex-shrink</code> – shrink ratio</li>
+      </ul>
+    </section>
+
+    <section class="practice">
+      <h2>Practice Questions</h2>
+      <ol>
+        <li>Create a navbar with 4 anchor tag options spaced equally using flexbox.</li>
+        <li>Use flexbox to center one div inside another div.</li>
+        <li>Which has higher priority – <code>align-items</code> or <code>align-self</code>?</li>
+      </ol>
+    </section>
+
+    <section class="media-queries">
+      <h2>Media Queries</h2>
+      <p>Media queries help make websites responsive to different screen sizes and orientations.</p>
+
+      <h3>Examples</h3>
+      <pre><code>@media (max-width: 600px) {
+  div {
+    background-color: red;
+  }
+}
+
+@media (min-width: 600px) {
+  div {
+    background-color: red;
+  }
+}
+
+@media (min-width: 200px) and (min-width: 300px) {
+  div {
+    background-color: red;
+  }
+}</code></pre>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Apna College Notes</p>
+  </footer>
+</body>
+</html>
