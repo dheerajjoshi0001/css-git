@@ -50,3 +50,7 @@ body {
     animation: growShrink 2s linear 1s infinite normal;
   }
   
+h1{
+    background-color: pink;
+    
+}
